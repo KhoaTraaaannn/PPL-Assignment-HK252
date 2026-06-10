@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug pytest",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-vv",
+                "tests/test_checker.py::test_016" // TODO 
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

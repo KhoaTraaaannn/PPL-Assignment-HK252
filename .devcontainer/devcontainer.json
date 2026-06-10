@@ -1,0 +1,23 @@
+{
+    "name": "PPL_VO_TIEN_BTL4_1_HK252",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "runArgs": [
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    },
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "forwardPorts": []
+}
