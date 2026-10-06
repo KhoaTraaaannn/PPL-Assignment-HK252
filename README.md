@@ -71,7 +71,7 @@ src/
     ├── nodes.py
     └── visitor.py
 ```
-
+The tree folder show all the files that must be worked on, not everything.
 ## Components
 
 - **`astgen`** — Contains the AST generation implementation.
